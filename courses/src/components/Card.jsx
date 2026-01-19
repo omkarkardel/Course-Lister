@@ -10,19 +10,19 @@ const Card = (props) => {
 
     function clickHandler() {
         //logic
-        //pahle se like hai
+    
         if(likedCourses.includes(course.id)) {
             setLikedCourses((prev) => prev.filter((cid) => (cid != course.id) ) );
             toast.warning("like removed");
         }
         else {
-            //pehle se like nahi hai
-            //insert karna h ye course liked courses me
+            //if not like prev
+            //then liked set
             if(likedCourses.length === 0) {
                 setLikedCourses([course.id]);
             }
             else {
-                //non-empty pehle se
+                // if non-empty prev
                 setLikedCourses((prev) => [...prev, course.id]);
             }
             toast.success("Liked Successfully");
