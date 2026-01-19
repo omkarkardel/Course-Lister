@@ -18,32 +18,34 @@ A modern and responsive course browsing platform built with React, Vite, and Tai
 
 🛠️ Tech Stack
 
-React.js
+- React.js
 
-Vite
+- Vite
 
-Tailwind CSS
+- Tailwind CSS
 
-JavaScript (ES6+)
+- JavaScript (ES6+)
 
-React Hooks (useState, useEffect)
+- React Hooks (useState, useEffect)
 
-React Toastify
+- React Toastify
 
 📂 Project Structure
-src/
-├── components/        # Reusable UI components
-├── data/              # API / mock data
-├── App.jsx            # Main app component
-├── main.jsx           # Entry point
-└── index.css          # Tailwind styles
+
+- src/
+  - components/ – Reusable UI components  
+  - data/ – API / mock data  
+  - App.jsx – Main app component  
+  - main.jsx – Entry point  
+  - index.css – Tailwind styles
+
 
 ⚙️ Installation & Setup
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/omkarkardel/Course-Lister.git
 
 # Navigate to project folder
-cd your-repo-name
+cd courses
 
 # Install dependencies
 npm install
